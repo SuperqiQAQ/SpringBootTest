@@ -40,4 +40,8 @@ spring:
       hibernate:
         show_sql: true
         format_sql: true
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
 
